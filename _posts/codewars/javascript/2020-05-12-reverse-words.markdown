@@ -25,6 +25,10 @@ number(["a", "b", "c"]) // => ["1: a", "2: b", "3: c"]
 
 This problem involves iterating over an array of strings and modifying them, for that I can use JavaScript's `map` function. I need to add a 'line number' to each element, I can do that using an index. `map` can receive an optional argument to serve as an index.
 
+Watch the screencast or read the explanation below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lsxyIgSBGok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 #### 1. Mapping over the array
 
 Mapping over the array is fairly straight forward. `array.map` takes a function with a `line` argument that represents each element in the array:
