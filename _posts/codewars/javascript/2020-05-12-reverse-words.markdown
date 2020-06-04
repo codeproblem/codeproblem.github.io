@@ -55,7 +55,7 @@ This will return: `["1: a", "2: b", "3: c"]`.
 
 ### Solution
 
-Here's the final solution:
+Here's the complete solution:
 
 ```javascript
 var number=function(array){

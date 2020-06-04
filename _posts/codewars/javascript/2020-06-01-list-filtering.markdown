@@ -36,7 +36,7 @@ return l.filter((e) => {
 
 ### Solution
 
-Here's the final solution:
+Here's the complete solution:
 
 ```javascript
 function filter_list(l) {

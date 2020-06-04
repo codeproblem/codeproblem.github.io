@@ -77,7 +77,7 @@ The last step is to return the number of years. Let's add a new variable, `years
 
 ### Solution
 
-Here's the final solution:
+Here's the complete solution:
 
 ```python
 def calculate_years(principal, interest, tax, desired):

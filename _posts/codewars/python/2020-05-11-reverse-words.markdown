@@ -75,7 +75,7 @@ return ' '.join(reversed_words)
 
 ### Solution
 
-Here is the final solution:
+Here is the complete solution:
 
 ```python
 def reverse_words(text):
