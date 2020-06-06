@@ -1,0 +1,48 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Color pallet
+$forest-green: #143601;
+$lincoln-green: #1A4301;
+$kelp-green: #245501;
+$maximum-green: #538D22;
+$green-grass: #73A942;
+$lime-green: #AAD576;
+
+// General styles
+body {
+  color: $forest-green;
+}
+
+a, a:visited {
+  color: $maximum-green;
+}
+
+.site-title, .site-title:visited, .footer-heading {
+  color: $lincoln-green;
+  font-weight: bold;
+}
+
+.home-title-description {
+  color: $forest-green;
+}
+
+.home-detail-description {
+  color: $kelp-green;
+}
+
+// Page
+.post-title {
+  color: $forest-green;
+}
+
+// Footer
+.site-footer {
+  padding: $spacing-unit / 2 0;
+}
+
+.built-by {
+  color: $forest-green;
+}

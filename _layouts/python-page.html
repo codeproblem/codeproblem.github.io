@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  <ul>
+    {% for post in site.categories.python %}
+    <h3>
+      <li>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </li>
+    </h3>
+    {% endfor %}
+  </ul>
+
+</div>
