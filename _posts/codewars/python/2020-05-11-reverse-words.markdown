@@ -19,9 +19,13 @@ permalink:  'codewars/python/reverse-words'
 
 ### Explanation
 
-Solving this problem consists of four parts.
+Solving this problem consists of four parts. splitting the string into a list of words, iterating over the words, reversing the words and joining the list into a single string.
 
-#### 1. Splitting the string into an array of words
+Watch the screencast or read the explanation below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k0tD8jhTzQw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+#### 1. Splitting the string into an list of words
 
 The first step is to split the string using a space as the delimiter:
 
@@ -29,9 +33,9 @@ The first step is to split the string using a space as the delimiter:
 words = text.split(' ')
 ````
 
-#### 2. Iterating over the array of words
+#### 2. Iterating over the list of words
 
-The next step is to iterate over the array of words:
+The next step is to iterate over the list of words:
 
 ```python
 for word in words:
@@ -56,7 +60,7 @@ for word in words:
     word[::-1]
 ```
 
-Now I just need to add these reversed words to an array, to use later in the code:
+Now I just need to add these reversed words to an list, to use later in the code:
 
 ```python
 reversed_words = []
@@ -65,9 +69,9 @@ for word in words:
     reversed_words.append(word[::-1])
 ```
 
-#### 4. Joining the array of reversed words into a single string
+#### 4. Joining the list of reversed words into a single string
 
-The last thing I need to do is join the array of reversed words into a single string and return the result. I'll join the `reversed_words` using a `' '` delimiter:
+The last thing I need to do is join the list of reversed words into a single string and return the result. I'll join the `reversed_words` using a `' '` delimiter:
 
 ```python
 return ' '.join(reversed_words)
