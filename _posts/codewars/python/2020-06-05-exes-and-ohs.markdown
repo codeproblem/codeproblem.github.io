@@ -14,6 +14,10 @@ permalink:  'codewars/python/exes-and-ohs'
 
 This problem involves iterating over the characters of a string, counting the 'x' and 'o' characters and comparing the results.
 
+Watch the screencast or read the explanation below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_26Amu2ZBKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### 1. Split the string into an array of chars
 
 The first step is to split the string parameter into individual characters. We can do that by casting the string to a list, using `list(s)`:
